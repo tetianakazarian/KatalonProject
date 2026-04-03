@@ -23,7 +23,6 @@ Keywords/
   pages/
   utils/
     TestDataFactory.groovy
-    TestDataStructured.groovy
     FakerUtils.groovy
 
 Object Repository/
@@ -56,7 +55,6 @@ Example:
 
 ```
 GlobalVariable.baseUrl
-GlobalVariable.apiBaseUrl
 GlobalVariable.useTestDataFile
 ```
 
@@ -166,6 +164,11 @@ def initializeTestData() {
     GlobalVariable.testUser = new TestDataFactory().getUser(1)
 ...
 }
+
+@BeforeTestCase
+def setupBrowser() 
+ ... initialize browser configuration
+}
 ```
 
 ---
@@ -181,7 +184,7 @@ Dynamic values injected into XPath:
 Usage:
 
 ```groovy
-findTestObject('obj', [('category'): notes.category])
+findTestObject('obj', [('category'): GlobalVariable.testConfig.testComplexConfig.selectionRule.category])
 ```
 
 ---
@@ -236,9 +239,9 @@ The framework supports **BDD testing using Cucumber**, allowing scenarios to be 
 
 ### 📁 Structure
 
-Include/features/ → Feature files
-Include/scripts/groovy/ → Step Definitions
-Test Cases/BDD/ → Test cases with BDD runner
+* Include/features/ → Feature files
+* Include/scripts/groovy/ → Step Definitions
+* Test Cases/BDD/ → Test cases with BDD runner
 
 ---
 
@@ -255,21 +258,21 @@ Test Cases/BDD/ → Test cases with BDD runner
 
 ### ▶️ Running BDD Tests
 
-1. Select Test Case
+1. Select Test Case from BDD folder
 2. Choose profile (`default / test / uat`)
 3. Click **Run**
 
 
 ## 📊 Reporting
 
-Reports generated in:
+Reports are generated in:
 
 ```
 Reports/<TestSuite>/<timestamp>/
 ```
 on TestSuite run
 
-I am also going to commit to the repository one Report folder to show self-healing report there
+**I am also going to commit to the repository one Report folder to show self-healing report there**
 
 Includes:
 
@@ -302,7 +305,7 @@ search_product=jean
 
 ## 🧠 Design Principles
 
-* DRY (no duplication)
+* DRY (Don't Repeat Yourself)
 * separation of concerns
 * reusable components
 * environment abstraction
@@ -315,6 +318,9 @@ search_product=jean
 
 * This version of Katalon UI supports only one locator → multi-locator via XML (at least I was not able to detect that :) )
 * Ads/overlays require manual handling
+* Windows OS has been used for development and no compatibility checks are done on other OS
+* Profiles have been pushed to GitHub without masking the sensitive data (card number, cvv, expirity dates) since the data is purposed to be used for testing needs only
+
 
 ---
 

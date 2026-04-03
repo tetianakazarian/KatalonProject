@@ -54,8 +54,8 @@ class SetUpTestEnvironment {
 		KeywordUtil.logInfo(GlobalVariable.testConfig.testComplexConfig.selectionRule.category)		
 	}
 	
-		@BeforeTestCase
-		def beforeTestCase(TestCaseContext context) {
-			CucumberGlueGenerator.addDefaultPackages()
-		}
+	@BeforeTestCase
+	def beforeTestCase(TestCaseContext context) {
+		CucumberGlueGenerator.addDefaultPackages()
+	}
 }

@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "C499C4E32FEB8EC27A48B237C00881E0",
+  "keywordFileContentHash": "C8BDA2CECEDC8080885043418F840FB4",
   "keywordClasses": [
     {
       "name": "SetUpTestEnvironment",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
