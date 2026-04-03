@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "88DEF8C20CFB7BEF015BFD873DDAB28E",
+  "keywordClasses": [
+    {
+      "name": "config.ConfigLoader",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

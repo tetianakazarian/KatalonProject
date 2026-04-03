@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "AF38D706A9EB355EEFCCD704B2D2BA85",
+  "keywordClasses": [
+    {
+      "name": "pages.CheckoutPage",
+      "keywordMethods": [
+        {
+          "name": "placeOrder",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "completePayment",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyOrderSuccess",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

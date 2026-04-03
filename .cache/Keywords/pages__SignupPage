@@ -1,0 +1,40 @@
+{
+  "keywordFileContentHash": "1C81E84C03FA003FE5EC093844DE665C",
+  "keywordClasses": [
+    {
+      "name": "pages.SignupPage",
+      "keywordMethods": [
+        {
+          "name": "completeRegistration",
+          "parameters": [
+            {
+              "name": "user",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "utils.TestDataStructured",
+                "unresolvedClassName": "TestDataStructured",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyAccountCreated",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickContinue",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

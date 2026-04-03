@@ -1,0 +1,10 @@
+{
+	"testComplexConfig": {
+		"selectionRule": {
+			"category": "Women",
+			"subcategory": "Dress",
+			"priceThreshold": 500,
+			"itepPosition": 2
+		}
+	}
+}

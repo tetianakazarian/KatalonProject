@@ -1,0 +1,13 @@
+# Katalon
+bin/
+Libs/
+Temp/
+settings/internal/
+console.properties
+
+# Logs
+*.log
+
+# Local secrets / env
+*.env
+config/*.local.*

@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "8F2023059A74B14F86F450F7BF118DE1",
+  "keywordClasses": [
+    {
+      "name": "utils.ConsentUtils",
+      "keywordMethods": [
+        {
+          "name": "acceptConsentIfPresent",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "removeBlockingAdsAndOverlays",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "61F758D466939B1B1DA4C3C4603E10D1",
+  "keywordClasses": [
+    {
+      "name": "utils.FakerUtils",
+      "keywordMethods": [
+        {
+          "name": "generateUser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

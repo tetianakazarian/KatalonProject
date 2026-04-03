@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lnk_Category</name>
+   <tag></tag>
+   <elementGuidId>1d7a84a1-122f-4451-9f65-7d369530511d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href='#'${category}'' or normalize-space(.)='${category}']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a[href='#Women']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#Women</value>
+      <webElementGuid>589db11a-44ad-45ac-b0c9-8fa4accd2914</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Women</value>
+      <webElementGuid>e120798c-f3f0-43fa-b171-08608ea4f80c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

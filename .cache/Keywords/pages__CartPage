@@ -1,0 +1,40 @@
+{
+  "keywordFileContentHash": "7F7FD8679A7480E1A40828CE31755AD7",
+  "keywordClasses": [
+    {
+      "name": "pages.CartPage",
+      "keywordMethods": [
+        {
+          "name": "openViewCartModalLink",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyCartContainsProduct",
+          "parameters": [
+            {
+              "name": "productName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "proceedToCheckout",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

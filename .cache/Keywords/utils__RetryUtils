@@ -1,0 +1,107 @@
+{
+  "keywordFileContentHash": "7B8B6BFCA4F81CA56645992A876A8050",
+  "keywordClasses": [
+    {
+      "name": "utils.RetryUtils",
+      "keywordMethods": [
+        {
+          "name": "retry",
+          "parameters": [
+            {
+              "name": "attempts",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sleepMillis",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "action",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "groovy.lang.Closure",
+                "unresolvedClassName": "Closure",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "retry",
+          "parameters": [
+            {
+              "name": "attempts",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "action",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "groovy.lang.Closure",
+                "unresolvedClassName": "Closure",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "retry",
+          "parameters": [
+            {
+              "name": "action",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "groovy.lang.Closure",
+                "unresolvedClassName": "Closure",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

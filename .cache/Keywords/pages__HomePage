@@ -1,0 +1,45 @@
+{
+  "keywordFileContentHash": "78A6CBBD8057ED067E64C4C3F9B35CEE",
+  "keywordClasses": [
+    {
+      "name": "pages.HomePage",
+      "keywordMethods": [
+        {
+          "name": "openHomePage",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickSignupLogin",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "openCategoryAndSubcategory",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyLoggedInAs",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,3 @@
+firstName,lastName,email,password,day,month,year,address,country,state,city,zipcode,mobile
+Anna,SmithTest,anna_test_1@mailinator.com,Test@12345,10,5,1995,Street 1,Canada,Ontario,Toronto,10001,123456789
+Kate,BrownTest,kate_test_2@mailinator.com,Test@12345,11,6,1994,Street 2,Canada,British Columbia,Vancouver,20002,987654321

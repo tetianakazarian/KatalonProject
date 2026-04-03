@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteCollectionEntity>
+   <description></description>
+   <name>Parallel_Execution_Suite</name>
+   <tag></tag>
+   <delayBetweenInstances>10</delayBetweenInstances>
+   <executionMode>PARALLEL</executionMode>
+   <maxConcurrentInstances>3</maxConcurrentInstances>
+   <testSuiteRunConfigurations>
+      <testSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/TS_E2E</testSuiteEntity>
+      </testSuiteRunConfiguration>
+   </testSuiteRunConfigurations>
+</TestSuiteCollectionEntity>

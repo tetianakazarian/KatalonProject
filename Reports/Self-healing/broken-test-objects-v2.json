@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LoginPage/btn_signup",
+      "brokenLocator": "button[data-qa\u003d\u0027signup-buttn\u0027]",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//button[@data-qa\u003d\u0027signup-button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LoginPage/btn_signup_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LoginPage/btn_signup",
+      "brokenLocator": "button[data-qa\u003d\u0027kukiu\u0027]",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//button[@data-qa\u003d\u0027signup-button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LoginPage/btn_signup_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LoginPage/btn_signup",
+      "brokenLocator": "button[data-qa\u003d\u0027XXXXXXXXXXXXx\u0027]",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//button[@data-qa\u003d\u0027signup-button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LoginPage/btn_signup_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/lnk_Category",
+      "brokenLocator": "//a[@href\u003d\u0027#\u0027Women\u0027\u0027 or normalize-space(.)\u003d\u0027\u0027Women\u0027\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "a[href\u003d\u0027#Women\u0027]",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/lnk_Category_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/lnk_Category",
+      "brokenLocator": "//a[@href\u003d\u0027#\u0027Women\u0027\u0027 or normalize-space(.)\u003d\u0027Women\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "a[href\u003d\u0027#Women\u0027]",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/lnk_Category_CSS.png"
+    }
+  ]
+}

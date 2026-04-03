@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_signup</name>
+   <tag></tag>
+   <elementGuidId>476a9e49-9679-494a-bb4d-3d213b33b304</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[data-qa='signup-button']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-qa='signup-button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Signup</value>
+      <webElementGuid>d6b2338c-b85f-4929-9d93-6e52aebc182a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
