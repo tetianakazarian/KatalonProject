@@ -4,6 +4,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 //import internal.GlobalVariable
 import utils.ConsentUtils
@@ -46,8 +47,19 @@ class HomePage {
 		def category = GlobalVariable.testConfig.testComplexConfig.selectionRule.category
 		def subcategory = GlobalVariable.testConfig.testComplexConfig.selectionRule.subcategory
 		TestObject women = findTestObject('HomePage/lnk_Category', [('category'): category])
-		TestObject dress = findTestObject('HomePage/lnk_Subcategory', [('subcategory'): subcategory])
-				
+		TestObject dress = findTestObject('HomePage/lnk_Subcategory',
+										  [
+											  ('category'): category,
+											  ('subcategory'): subcategory
+										  ])
+		
+		WebUI.executeJavaScript(
+			"arguments[0].scrollIntoView({block: 'center'});",
+			Arrays.asList(WebUI.findWebElement(women, Env.timeout()))
+		)
+	
+		WebUI.delay(1)
+		
 		WebUI.executeJavaScript(
 			"arguments[0].click();",
 			Arrays.asList(WebUI.findWebElement(women, Env.timeout()))
@@ -55,7 +67,7 @@ class HomePage {
 	
 		// wait until dress is visible
 		WebUI.waitForElementVisible(dress, Env.timeout())
-	
+		
 		// scroll properly till the element is visible
 		WebUI.executeJavaScript(
 			"arguments[0].scrollIntoView({block: 'center'});",

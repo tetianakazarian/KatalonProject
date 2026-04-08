@@ -6,12 +6,12 @@
    <elementGuidId>4294f505-826a-4471-af35-db572fbe696e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(@href,'/category_products/') and normalize-space(.)='${subcategory}']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a[href='/category_products/1']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='${category}']//a[normalize-space(.)='${subcategory}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,6 +23,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Dress</value>
-      <webElementGuid>f0d48ef2-7763-46dd-8b9a-1f1df30d669d</webElementGuid>
+      <webElementGuid>83d9e209-da95-41b8-99a0-80a4fd50fed7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

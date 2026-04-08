@@ -6,12 +6,12 @@
    <elementGuidId>1d7a84a1-122f-4451-9f65-7d369530511d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@href='#'${category}'' or normalize-space(.)='${category}']</value>
+         <key>CSS</key>
+         <value>div[id='${category}']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a[href='#Women']</value>
+         <key>XPATH</key>
+         <value>//a[@href='#${category}' or normalize-space(.)='${category}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#Women</value>
-      <webElementGuid>589db11a-44ad-45ac-b0c9-8fa4accd2914</webElementGuid>
+      <webElementGuid>9c50ff6e-d0c9-4a94-850a-f3c103f122d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,6 +31,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Women</value>
-      <webElementGuid>e120798c-f3f0-43fa-b171-08608ea4f80c</webElementGuid>
+      <webElementGuid>cc1ddd76-61de-435f-bd56-d2262b25b175</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

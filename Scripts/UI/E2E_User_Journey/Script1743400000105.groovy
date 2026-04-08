@@ -28,8 +28,13 @@ try {
         CustomKeywords.'pages.CartPage.openViewCartModalLink'()
     })
 
+	def category = GlobalVariable.testConfig.testComplexConfig.selectionRule.category
+	def subcategory = GlobalVariable.testConfig.testComplexConfig.selectionRule.subcategory
+	
     CustomKeywords.'pages.CartPage.verifyCartContainsProduct'(selected.name as String)
-    CustomKeywords.'utils.ApiUtils.verifyProductMatchesSelection'(selected.name as String, selected.price as Integer, 'Women', 'Dress')
+    CustomKeywords.'utils.ApiUtils.verifyProductMatchesSelection'(selected.name as String, selected.price as Integer, 
+		GlobalVariable.testConfig.testComplexConfig.selectionRule.category,
+		GlobalVariable.testConfig.testComplexConfig.selectionRule.subcategory)
     CustomKeywords.'pages.CartPage.proceedToCheckout'()
     CustomKeywords.'pages.CheckoutPage.placeOrder'()
     CustomKeywords.'pages.CheckoutPage.completePayment'()
