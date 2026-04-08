@@ -5,9 +5,14 @@ Temp/
 settings/internal/
 console.properties
 
+
 # Logs
 *.log
 
 # Local secrets / env
 *.env
 config/*.local.*
+/.cache/*
+/Reports/*
+/.temp-Temp*
+
